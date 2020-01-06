@@ -1,0 +1,157 @@
+Comparing audio9_Ad_92 with register ads : 
+r_auto_persil discs 4v1_7110 is present in audio9_ad_92 but not in register ads
+d_auto_tv joj djingel_4 is present in audio9_ad_92 but not in register ads
+r_auto_test video 1_2068 is present in audio9_ad_92 but not in register ads
+r_auto_test videos 1_3367 is present in audio9_ad_92 but not in register ads
+s_auto_test videos 2_8376 is present in audio9_ad_92 but not in register ads
+d_auto_test videos 3_4254 is present in audio9_ad_92 but not in register ads
+r_auto_dominik long test 2_1816 is present in audio9_ad_92 but not in register ads
+r_auto_dominik long test 1_3803 is present in audio9_ad_92 but not in register ads
+ is present in audio9_ad_92 but not in register ads
+r_auto_test34_7026 is present in audio9_ad_92 but not in register ads
+r_auto_ok_8845test_new is present in audio9_ad_92 but not in register ads
+r_auto_ok_8845 is present in audio9_ad_92 but not in register ads
+r_auto_ok_1512 is present in audio9_ad_92 but not in register ads
+r_auto_ok_1512test_time is present in audio9_ad_92 but not in register ads
+r_auto_ok_3020 is present in audio9_ad_92 but not in register ads
+r_auto_ok_7269 is present in audio9_ad_92 but not in register ads
+r_auto_r_auto_4ka knihkupectvo_1563_1814 is present in audio9_ad_92 but not in register ads
+r_auto_ok_4502 is present in audio9_ad_92 but not in register ads
+r_auto_test2_9523 is present in audio9_ad_92 but not in register ads
+r_auto_ok_9673 is present in audio9_ad_92 but not in register ads
+r_auto_druhe video_8340 is present in audio9_ad_92 but not in register ads
+r_auto_ok_4793 is present in audio9_ad_92 but not in register ads
+r_auto_druhe video zmena_7088 is present in audio9_ad_92 but not in register ads
+r_auto_ok_5710 is present in audio9_ad_92 but not in register ads
+r_auto_r_auto_4ka knihkupectvo_1563_6200 is present in audio9_ad_92 but not in register ads
+r_auto_ok_5727 is present in audio9_ad_92 but not in register ads
+r_auto_test video_4450 is present in audio9_ad_92 but not in register ads
+r_auto_deleting video 1_6413 is present in audio9_ad_92 but not in register ads
+r_auto_ok_9227 is present in audio9_ad_92 but not in register ads
+r_auto_r_auto_4ka knihkupectvo_1563_5188 is present in audio9_ad_92 but not in register ads
+r_auto_second test video_6657 is present in audio9_ad_92 but not in register ads
+r_auto_first test video_4012 is present in audio9_ad_92 but not in register ads
+r_auto_third test video_2864 is present in audio9_ad_92 but not in register ads
+r_auto_fourth test video_5697 is present in audio9_ad_92 but not in register ads
+r_auto_alltoys luna konik_2266 is present in audio9_ad_92 but not in register ads
+r_auto_teta drog parfem 50_4927 is present in audio9_ad_92 but not in register ads
+r_auto_lego ninjago_9859 is present in audio9_ad_92 but not in register ads
+r_auto_piatnik rummikub_7305 is present in audio9_ad_92 but not in register ads
+r_auto_curaprox hydro pro vian_5745 is present in audio9_ad_92 but not in register ads
+r_auto_alltoys floppy pes_8837 is present in audio9_ad_92 but not in register ads
+r_auto_dracik robo chameleon_5905 is present in audio9_ad_92 but not in register ads
+r_auto_dracik robo kombat_9963 is present in audio9_ad_92 but not in register ads
+r_auto_op kzp plyn kotle_3890 is present in audio9_ad_92 but not in register ads
+r_auto_samsung galaxy pes_2914 is present in audio9_ad_92 but not in register ads
+r_auto_first video_1638 is present in audio9_ad_92 but not in register ads
+r_auto_fourth_4005 is present in audio9_ad_92 but not in register ads
+r_auto_fourth_4974 is present in audio9_ad_92 but not in register ads
+r_auto_first video_2896 is present in audio9_ad_92 but not in register ads
+r_auto_second video_3864 is present in audio9_ad_92 but not in register ads
+r_auto_1f882359-8a3a-4d65-866a-d40cfc2fd216_2797 is present in audio9_ad_92 but not in register ads
+r_auto_first video_5215 is present in audio9_ad_92 but not in register ads
+r_auto_second video_7687 is present in audio9_ad_92 but not in register ads
+r_auto_third video_8164 is present in audio9_ad_92 but not in register ads
+r_auto_first video_1745 is present in audio9_ad_92 but not in register ads
+r_auto_second video_3173 is present in audio9_ad_92 but not in register ads
+r_auto_first video_2717 is present in audio9_ad_92 but not in register ads
+r_auto_first video_6733 is present in audio9_ad_92 but not in register ads
+r_auto_first video_5764 is present in audio9_ad_92 but not in register ads
+r_auto_first video_9518 is present in audio9_ad_92 but not in register ads
+r_auto_first video_8418 is present in audio9_ad_92 but not in register ads
+r_auto_first video_5057 is present in audio9_ad_92 but not in register ads
+r_auto_first video_3211 is present in audio9_ad_92 but not in register ads
+r_auto_first video_9364 is present in audio9_ad_92 but not in register ads
+r_auto_first video_1001 is present in audio9_ad_92 but not in register ads
+r_auto_first video_1634 is present in audio9_ad_92 but not in register ads
+r_auto_first video_4918 is present in audio9_ad_92 but not in register ads
+r_auto_first video_7141 is present in audio9_ad_92 but not in register ads
+r_auto_first video_5827 is present in audio9_ad_92 but not in register ads
+r_auto_second video_2092 is present in audio9_ad_92 but not in register ads
+r_auto_dominik video 1_7398 is present in audio9_ad_92 but not in register ads
+r_auto_first video_7982 is present in audio9_ad_92 but not in register ads
+r_auto_first video_7835 is present in audio9_ad_92 but not in register ads
+r_auto_first video_9894 is present in audio9_ad_92 but not in register ads
+r_auto_lidl  obliecky pyzamo_9723 is present in audio9_ad_92 but not in register ads
+r_auto_new test video final test_2672 is present in audio9_ad_92 but not in register ads
+r_auto_test new video cut_2850 is present in audio9_ad_92 but not in register ads
+r_auto_lidl  vianoce losos_1675 is present in audio9_ad_92 but not in register ads
+r_auto_test videos_8366 is present in audio9_ad_92 but not in register ads
+r_auto_test video cut single_5301 is present in audio9_ad_92 but not in register ads
+r_auto_test cut frame 1_8069 is present in audio9_ad_92 but not in register ads
+r_auto_test cut frame 2_1983 is present in audio9_ad_92 but not in register ads
+r_auto_test cut frame 3_3735 is present in audio9_ad_92 but not in register ads
+r_auto_test_6193 is present in audio9_ad_92 but not in register ads
+r_auto_testcut2_4843 is present in audio9_ad_92 but not in register ads
+r_auto_ttt1_4062 is present in audio9_ad_92 but not in register ads
+r_auto_ttt2_9963 is present in audio9_ad_92 but not in register ads
+s_auto_test video_8041 is present in audio9_ad_92 but not in register ads
+d_auto_test video 2_8345 is present in audio9_ad_92 but not in register ads
+r_auto_test video 1_7605 is present in audio9_ad_92 but not in register ads
+d_auto_test video 4_6425 is present in audio9_ad_92 but not in register ads
+s_auto_test video pc_7042 is present in audio9_ad_92 but not in register ads
+r_auto_nivea  men sensitive_7133 is present in audio9_ad_92 but not in register ads
+r_auto_test video_9780 is present in audio9_ad_92 but not in register ads
+s_auto_first video_2259 is present in audio9_ad_92 but not in register ads
+r_auto_test video 1_7962 is present in audio9_ad_92 but not in register ads
+s_auto_test video 2_8742 is present in audio9_ad_92 but not in register ads
+d_auto_test video 3_1759 is present in audio9_ad_92 but not in register ads
+r_auto_test video cut 1_1442 is present in audio9_ad_92 but not in register ads
+s_auto_test video cut 2_5225 is present in audio9_ad_92 but not in register ads
+r_auto_first video_6068 is present in audio9_ad_92 but not in register ads
+r_auto_first video_3326 is present in audio9_ad_92 but not in register ads
+r_auto_first video_1954 is present in audio9_ad_92 but not in register ads
+r_auto_test_7872 is present in audio9_ad_92 but not in register ads
+r_auto_tatrabanka aplikacia nem vidiet veič_6385 is present in audio9_ad_92 but not in register ads
+r_auto_test_3781 is present in audio9_ad_92 but not in register ads
+r_auto_first video_8723 is present in audio9_ad_92 but not in register ads
+s_auto_first video_8546 is present in audio9_ad_92 but not in register ads
+s_auto_first video_5805 is present in audio9_ad_92 but not in register ads
+d_auto_first video_2474 is present in audio9_ad_92 but not in register ads
+r_auto_test_7580 is present in audio9_ad_92 but not in register ads
+s_auto_first video_9944 is present in audio9_ad_92 but not in register ads
+s_auto_my video check_9378 is present in audio9_ad_92 but not in register ads
+s_auto_first video_8034 is present in audio9_ad_92 but not in register ads
+s_auto_first video_2040 is present in audio9_ad_92 but not in register ads
+r_auto_miss slovensko 2020_2868 is present in audio9_ad_92 but not in register ads
+s_auto_test video_1948 is present in audio9_ad_92 but not in register ads
+r_auto_test video_1971 is present in audio9_ad_92 but not in register ads
+s_auto_test video 2_8346 is present in audio9_ad_92 but not in register ads
+d_auto_test video 3_6053 is present in audio9_ad_92 but not in register ads
+r_auto_slovakia travel liptov treba zazit_9171 is present in audio9_ad_92 but not in register ads
+r_auto_lidl muka pizza_1990 is present in audio9_ad_92 but not in register ads
+Comparing audio9_Ad_102 with register ads : 
+r_auto_datart black friday_8728 is present in audio9_ad_102 but not in register ads
+r_auto_second test video_9965 is present in audio9_ad_102 but not in register ads
+r_auto_first video_3870 is present in audio9_ad_102 but not in register ads
+r_auto_first video_7537 is present in audio9_ad_102 but not in register ads
+r_auto_intersport lyze  redster 1512_5520 is present in audio9_ad_102 but not in register ads
+r_auto_de  longhi n1 kavovar_5482 is present in audio9_ad_102 but not in register ads
+r_auto_first video testing_5925 is present in audio9_ad_102 but not in register ads
+r_auto_first video test2_2247 is present in audio9_ad_102 but not in register ads
+r_auto_first video_7506 is present in audio9_ad_102 but not in register ads
+r_auto_first video_5427 is present in audio9_ad_102 but not in register ads
+ is present in audio9_ad_102 but not in register ads
+r_auto_jysk von is present in audio9_ad_102 but not in register ads
+r_auto_lidl  obliecky pyzamo_9723 is present in audio9_ad_102 but not in register ads
+r_auto_test_7872 is present in audio9_ad_102 but not in register ads
+r_auto_test_2490 is present in audio9_ad_102 but not in register ads
+r_auto_test_3331 is present in audio9_ad_102 but not in register ads
+r_auto_test23_3050 is present in audio9_ad_102 but not in register ads
+r_auto_lidl  vianoce losos_1675 is present in audio9_ad_102 but not in register ads
+s_auto_test video cut test_9175 is present in audio9_ad_102 but not in register ads
+d_auto_first video_6308 is present in audio9_ad_102 but not in register ads
+s_auto_second video_5913 is present in audio9_ad_102 but not in register ads
+r_auto_first video_4234 is present in audio9_ad_102 but not in register ads
+s_auto_second video_6480 is present in audio9_ad_102 but not in register ads
+d_auto_third video_7351 is present in audio9_ad_102 but not in register ads
+r_auto_nivea  men sensitive_7133 is present in audio9_ad_102 but not in register ads
+s_auto_test video _5116 is present in audio9_ad_102 but not in register ads
+s_auto_test video_8500 is present in audio9_ad_102 but not in register ads
+s_auto_test video_8751 is present in audio9_ad_102 but not in register ads
+r_auto_dominik test_6823 is present in audio9_ad_102 but not in register ads
+r_auto_test_2738 is present in audio9_ad_102 but not in register ads
+r_auto_min podohosp rozvoj regionov_4157 is present in audio9_ad_102 but not in register ads
+r_auto_test video 1_2068 is present in audio9_ad_102 but not in register ads
+r_auto_dominik long test 2_1816 is present in audio9_ad_102 but not in register ads
+r_auto_dominik long test 1_3803 is present in audio9_ad_102 but not in register ads
