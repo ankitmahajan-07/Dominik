@@ -3,7 +3,7 @@ from datetime import date
 
 
 def numOfDays(date1, date2):
-    return int((date2 - date1).days)
+    return int((date1 - date2).days)
 
 def getToday():
     Date = date.today()
@@ -40,36 +40,48 @@ try:
         date2 = date(int(getDateFromDb[0]), int(getDateFromDb[1]), int(getDateFromDb[2]))
         print(date1, date2)
         try:
-            diff = numOfDays(date2,date1)
+            diff = numOfDays(date1,date2)
             print(diff, type(diff), 'difference')
         except:
             continue
-        if diff == 45:
+        if diff == 5:
             cmd = 'rm -r reordings/'+record[1]
             try:
-                print("Folder is older that 45 days. Will delete that.")
-                # os.system(cmd)
+                print("Folder is older than required days. Will delete that.")
+                os.system(cmd)
+                try:
+                    print("Files are not present on this user's pc. Setting alive to 0")
+                    new_query = """UPDATE records_location SET alive=%s WHERE id=%s;"""
+                    print(new_query, "new query")
+                    cursor.execute(new_query, (0, record[0]))
+                    connection.commit()
+                except (Exception, psycopg2.Error) as error:
+                    print("Could not update records on database", error)
             except:
                 print('Cannot delete directory')
         else:
             if record[-1] != 0:
-                current_ip = record[-2]
-                current_path = record[-3].split('/media/')[0]
-                cmd = "smb://"+current_ip+'/'+current_path
+                current_ip = record[-3]
+                current_path = record[-2]
+                cmd = current_path
                 if os.path.exists(cmd):
                     try:
                         print("Files are present on this user's pc, setting alive to 1")
-                        # new_query = "UPDATE records_location SET  alive=1 WHERE id=" + record[0]
-                        # cursor.execute(new_query)
-                    except:
-                        print("Could not update records on database")
+                        new_query = """UPDATE records_location SET alive=%s WHERE id=%s;"""
+                        print(new_query, "new query")
+                        cursor.execute(new_query,(1,record[0]))
+                        connection.commit()
+                    except (Exception, psycopg2.Error) as error:
+                        print("Could not update records on database",error)
                 else:
                     try:
                         print("Files are not present on this user's pc. Setting alive to 0")
-                        # new_query = "UPDATE records_location SET  alive=0 WHERE id=" + record[0]
-                        # cursor.execute(new_query)
-                    except:
-                        print("Could not update records on database")
+                        new_query = """UPDATE records_location SET alive=%s WHERE id=%s;"""
+                        print(new_query, "new query")
+                        cursor.execute(new_query, (0,record[0]))
+                        connection.commit()
+                    except (Exception, psycopg2.Error) as error:
+                        print("Could not update records on database",error)
 
 except (Exception, psycopg2.Error) as error :
     if error != 'day is out of range for month':
