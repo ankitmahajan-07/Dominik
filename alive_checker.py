@@ -1,5 +1,6 @@
 import psycopg2
 from datetime import date
+import datetime
 import subprocess
 from os import path
 import os
@@ -21,14 +22,15 @@ def getToday():
 
 
 def move_record(owner_ad, country):
-    print('Moving this file : ',owner_ad)
     audio_files = []
     video_files = []
     for i in folders:
         for j in range(9):
-            audio_files.append("{}00{}.aac".format(owner_ad, j))
+            audio_files.append("{}00{}.aac".format(owner_ad.split('.')[0], j))
+            print("{}00{}.aac".format(owner_ad, j))
         for j in range(9):
-            video_files.append("{}00{}.mp4".format(owner_ad, j))
+            video_files.append("{}00{}.mp4".format(owner_ad.split('.')[0], j))
+            print("{}00{}.aac".format(owner_ad, j))
         for j in audio_files:
             if path.exists("{0}{1}/{2}/{3}".format(audio_folder, i, countries[country], j)):
                 print("{0}{1}/{2}/{3}".format(audio_folder, i, countries[country], j))
@@ -43,7 +45,7 @@ def move_record(owner_ad, country):
 
 try:
     connection = psycopg2.connect(user = "verifyrecordsaccess",
-                                  password = "SLZHyyk39lABeL3i",
+                                  password = "mRL92PLqgb7Y4MsL",
                                   host = "164.68.97.194",
                                   port = "",
                                   database = "catalog_registerads")
@@ -58,22 +60,22 @@ try:
     records = list(cursor.fetchall())
     # print(records)
     for record in records:
-        if record[1] == 'Never':
+        if record[1] == None:
             print('In never')
             today = getToday()
             date1 = date(int(today[0]), int(today[1]), int(today[2]))
-            date2 = str(record[2]).split('_')[0]
-            date2 = date2.split('-')
-            date2= date(int(date2[0]),int(date2[1]),int(date2[2]))
+            #date2 = str(record[2]).split('_')[0]
+            #date2 = date2.split('-')
+            date2= date(record[2].year, record[2].month, record[2].day)
             diff = numOfDays(date1,date2)
             if diff/30 >= 24:
                 print("Status is older than 24 months, declaring expired and moving files.")
                 move_record(record[3], record[4])
                 try:
                     print('Alive to 0')
-                    new_query = """UPDATE registration_ads SET alive=%s and expiry_date=%s WHERE id=%s;"""
+                    new_query = """UPDATE registration_ads SET alive=%s WHERE id=%s;"""
                     print(new_query, "new query")
-                    cursor.execute(new_query, ('0','expired' ,record[0]))
+                    cursor.execute(new_query, ('0',record[0]))
                     connection.commit()
                 except (Exception, psycopg2.Error) as error:
                     print("Could not update records on database", error)
@@ -88,17 +90,18 @@ try:
                     print("Could not update records on database", error)
         else:
             today = getToday()
-            getDateFromDb = str(record[1]).split('-')
+            #getDateFromDb = str(record[1]).split('-')
             date1 = date(int(today[0]), int(today[1]), int(today[2]))
-            if getDateFromDb[2] == '00':
-                getDateFromDb[2] = '01'
-            date2 = date(int(getDateFromDb[0]), int(getDateFromDb[1]), int(getDateFromDb[2]))
+            date2= date(record[1].year, record[1].month, record[1].day)
             print(date1, date2)
             diff = numOfDays(date1, date2)
             if diff >= -1:
                 try:
                     print('Alive to zero and moving files')
                     move_record(record[3], record[4])
+                    print('=====================')
+                    print(move_record(record[3], record[4]))
+                    print('=====================')
                     new_query = """UPDATE registration_ads SET alive=%s WHERE id=%s;"""
                     print(new_query, "new query")
                     cursor.execute(new_query, ('0', record[0]))

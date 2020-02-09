@@ -63,21 +63,23 @@ while True:
                 newquery = 'select lastalive from alive where radiochannel_id=%s'
                 cursor.execute(newquery,[record[0]])
                 newLastAlive = cursor.fetchone()
-                if dateTime == newLastAlive[0]:
-                    if i<2:
-                        time.sleep(15)
-                        continue
+                if newLastAlive != None:
+                    if dateTime == newLastAlive[0]:
+                        if i < 2:
+                            time.sleep(15)
+                            continue
+                        else:
+                            print("Connection is not being updated, Sending error mail!!")
+                            try:
+                                send_mail('no-reply@adsrecognition.com',
+                                          'Audio ' + record[1] + ' ' + record[-1] + ' NOT ALIVE',
+                                          'Error alert')
+                            except:
+                                print(
+                                    'Make sure you have allowed less secure apps functionality on your email account.')
                     else:
-                        print("Connection is not being updated, Sending error mail!!")
-                        try:
-                            send_mail('no-reply@adsrecognition.com',
-                                      'Audio '+record[1]+' '+record[-1]+' NOT ALIVE',
-                                      'Error alert')
-                        except:
-                            print('Make sure you have allowed less secure apps functionality on your email account.')
-                else:
-                    print(record[1]+' is still connected.')
-                    break
+                        print(record[1] + ' is still connected.')
+                        break
         else:
             if record[-2] == 'Unconnected' or record[-2] == 'Error':
                 print(record[1] + ' ' + record[-1] + ' has lost connection with server. Sending Mail')
